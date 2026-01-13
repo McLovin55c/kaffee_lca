@@ -53,32 +53,6 @@ This project is a **Single Page Application (SPA)** built with Vanilla Technolog
 
 ---
 
-## 🚀 How to Run Locally
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/mclovin55c/kaffee_lca.git](https://github.com/mclovin55c/kaffee_lca.git)
-    ```
-2.  **Open the file:**
-    Navigate to the folder and simply open `index.html` in your browser (Chrome, Firefox, Safari).
-
-*Note: An internet connection is required to load the CDN libraries (Chart.js, Icons).*
-
----
-
-## 🌍 Customization & i18n
-
-The project supports **multiple languages** out of the box. All text content is separated from the logic.
-
-### Adding a new Language
-1.  Open `index.html`.
-2.  Locate the `const TRANSLATIONS` object.
-3.  Copy the `en` block and rename it (e.g., `es` for Spanish).
-4.  Translate the strings inside.
-5.  Add a button to the HTML header:
-    ```html
-    <button class="lang-btn" onclick="game.setLang('es')">ES</button>
-    ```
 
 ### Modifying Scientific Data
 To update the underlying LCA data (e.g., for a new study), locate the `const DATA` object:
